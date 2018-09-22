@@ -1,0 +1,145 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ffa;
+}
+h1{
+    color: purple;
+}
+
+
+.button{
+    background-color: #0B73FF;
+    border-bottom: 5px solid #055caa;
+    border-right: 5px solid #055caa;
+    color: white;
+    padding: 15px;
+    border-radius: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    transform:translate(-50%,0);
+}
+
+.button:hover{
+    border-bottom: 2px solid #023266;
+    border-right: 2px solid #023266;
+}
+
+#newGame{
+    top: 60px;
+    left: 50%;
+}
+
+#game{
+    top: 200px;
+    left: 50%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#overGround{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+#ana{
+    margin: 100px auto;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.score{
+    margin-top: 30px;
+    margin-right: 300px;
+    width: 120px;
+    height: 65px;
+    background-color: rgba(250,160,16,0.5);
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    color: rgb(250,160,16);
+    font-weight: bold;
+    font-size: 20px;
+    transform:translate(-50%,0);
+    cursor: pointer;
+}
+.score span{
+    display: block;
+}
+.left{
+    transform:translate(-170%,0);
+}
+.right{
+    transform:translate(70%,0);
+}
+
+#box{
+    background-color: #97694f;
+    width: 480px;
+    height: 480px;
+    position: absolute;
+    top: 200px;
+    right:450px;
+    padding: 20px 0px 0px 20px;
+    border-radius: 20px;
+}
+
+.boxCell{
+    background-color: #fc0;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 0 20px 20px 0;
+
+    color: #f00;
+    font-weight: bold;
+    font-size: 20px;
+
+    line-height:100px;
+}
+
+#overGround{
+    z-index: 100;
+    background-color: rgba(255,255,2555,0.7);
+    width: 480px;
+    height: 480px;
+    position: absolute;
+    top: 200px;
+    right:450px;
+    padding: 20px 0px 0px 20px;
+    border-radius: 20px;
+    display: none;
+}
+
+.say{
+    width: 500px;
+    position: absolute;
+    top: 700px;
+    left: 50%;
+    transform:translate(-50%,0);
+
+    font-weight: bold;
+    font-size: 20px;
+
+    color: #903;
+}
+
+.say h3{
+    font-size: 50px;
+    line-height: 0;
+}
+
+.say h4{
+    font-size: 30px;
+    line-height: 0;
+}
+
+/*#getValue{*/
+    /*position: absolute;*/
+    /*top: 1000px;*/
+    /*left: 50%;*/
+    /*transform:translate(-50%,0);*/
+/*}*/
